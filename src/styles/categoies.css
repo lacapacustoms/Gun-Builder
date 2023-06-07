@@ -1,0 +1,57 @@
+.parent-button {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    position: relative;
+}
+
+.tick-icon {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+
+.buttons {
+    background-color: #50C203;
+    border: 1px solid #50C203;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #FFFFFF;
+    color: #50C203;
+}
+
+.headings {
+    color: blueviolet;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider-image {
+    max-width: 100%;
+    max-height: 300px;
+
+}
+
+.ant-drawer-content-wrapper {
+    transform: translateY(0px) !important;
+}

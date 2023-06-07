@@ -1,0 +1,36 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(45, 80, 79, 0.2);
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    animation: loader 3s linear infinite;
+}
+
+.circle--sun {
+    border-top-color: #000000;
+}
+
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

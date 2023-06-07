@@ -1,0 +1,127 @@
+.change-side-btn {
+    cursor: pointer;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+.gun-name {
+    font-size: 22px;
+    color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.current-side-btn {
+    cursor: pointer;
+    padding: 20px;
+    background-color: purple;
+    color: orange;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+.gun-container {
+    display: flex;
+    /* height: 100vh; */
+    overflow: hidden;
+    flex-direction: column;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons-text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.imageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    /* flex: 0 0 58%; */
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.change-side {
+    display: flex;
+    gap: 50px;
+}
+
+.gun-slide {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gun-slide-text {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.boxes-list {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.icons-change-bg {
+    display: flex;
+    gap: 10px;
+}
+
+.svg-icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gun-parent-container {
+    /* max-height: calc(100vh - 0px); */
+    /* overflow: hidden; */
+
+}
+
+.switch-off .ant-switch-inner {
+    background-color: white;
+}
+
+.switch-on .ant-switch-inner {
+    background-color: black;
+}
+
+.switch-off .ant-switch-handle {
+    background-color: black;
+    border-radius: 50% !important;
+    height: 16px;
+    width: 16px;
+    margin-top: 1px;
+}
+
+.switch-on .ant-switch-handle {
+    background-color: white;
+    border-radius: 50% !important;
+    height: 16px;
+    width: 16px;
+    margin-top: 1px;
+}
+
+.switch-off .ant-switch-handle:before {
+    background-color: black;
+    border-radius: 50% !important;
+    margin: 4px;
+}
+
+.switch-on .ant-switch-handle:before {
+    background-color: white;
+    border-radius: 50%;
+    margin: 4px;
+}

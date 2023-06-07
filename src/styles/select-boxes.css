@@ -1,0 +1,89 @@
+:where(.css-dev-only-do-not-override-1vtf12y).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 2px solid #50c203 !important
+}
+
+:where(.css-dev-only-do-not-override-1vtf12y).ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  color: #000000
+}
+
+.drop-down-container {
+  flex: 0 0 30%;
+  overflow-y: auto;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.gun-drop-downs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 100px;
+
+}
+
+.disabled {
+  cursor: not-allowed !important;
+  /* pointer-events: none; */
+}
+
+.drop-heading {
+  margin: 10px 0px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a1a1a1;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f3f3f3;
+}
+
+.ant-cascader-menus {
+  z-index: 9999;
+}
+
+.cascader-parent {
+  position: relative;
+  z-index: 9999;
+}
+
+.custom-cascader-dropdown {
+  z-index: 9999;
+}
+
+.drop-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.drop-text-btn {
+  color: #50C203;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
